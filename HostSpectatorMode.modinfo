@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="932c1a49-0009-4bfe-9795-db2dce0b586b" version="1">
+  <Properties>
+    <Name>Host Spectator Mode</Name>
+    <Description>This mod will turn the player in the last slot into a Spectator.</Description>
+    <CustomProperties></CustomProperties>
+    <Teaser>This mod will turn the player in the last slot into a Spectator.</Teaser>
+    <Authors>Mag1kahn</Authors>
+    <SpecialThanks>Fruitstrike</SpecialThanks>
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="Spectator">
+      <File>TurnLastSlotIntoSpectator.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>TurnLastSlotIntoSpectator.lua</File>
+  </Files>
+</Mod>
